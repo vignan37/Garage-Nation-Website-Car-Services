@@ -1,6 +1,6 @@
 :root {
     --light-purple: #ffffff;
-    --purple: #F3BC46;
+    --purple: #304656;
     --bg-purple: #DC2249;
     --dark-purple: #000000;
     --body-text-purple: #000000;
@@ -8,7 +8,7 @@
     --bg-white: #ffffff;
     --slider-dots-color: #c0c0c0;
     --light-bg: #ffffff;
-    --bg-yellow: #edc44f;
+    --bg-yellow: #304656;
 }
 
 /* ------Media-Query-Start--------- */
