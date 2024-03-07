@@ -365,28 +365,33 @@ async function fetchClientData() {
 const staticClients = [
   {
     webUrl: "https://web.busyness.app/",
-    businessName: "Medication Delivery",
-    logoUrl: "images/medicine_delivery.png",
+    businessName: "Periodic Car Service",
+    logoUrl: "images/periodic_service.png",
   },
   {
     webUrl: "https://web.busyness.app/",
-    businessName: "Doctor Consultation Online",
-    logoUrl: "images/online.png",
+    businessName: "Custom Car Repair",
+    logoUrl: "images/custom_repair.png",
   },
   {
     webUrl: "https://web.busyness.app/",
-    businessName: "Offline Doctor Consultation",
-    logoUrl: "images/offline.png",
+    businessName: "Car Denting & Painting",
+    logoUrl: "images/denting.png",
   },
   {
     webUrl: "https://web.busyness.app/",
-    businessName: "OHC B2B Doctor & Nurses",
-    logoUrl: "images/ohb.png",
+    businessName: "Car Wash & Detailing",
+    logoUrl: "images/car_wash.png",
   },
   {
     webUrl: "https://web.busyness.app/",
-    businessName: "Annual Health Checkups",
-    logoUrl: "images/Annual_check.png",
+    businessName: "Tyres and wheels",
+    logoUrl: "images/wheels.png",
+  },
+  {
+    webUrl: "https://web.busyness.app/",
+    businessName: "Car AC Service",
+    logoUrl: "images/ac-service.png",
   }
 ];
 
@@ -448,7 +453,7 @@ async function generateCards() {
 }
 
 function redirectToURLVydic() {
-  const redirectTo = "https://vydic-plus.busyness.app/#/";
+  const redirectTo = "https://garage-nation.busyness.app/";
   console.log('redirection ', redirectTo);
   window.location.href = redirectTo;
 }
