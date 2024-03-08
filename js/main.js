@@ -442,7 +442,7 @@ async function generateCards() {
       }
 
       // Event listener to handle the card click
-      cardDiv.addEventListener("click", () => redirectToURLVydic());
+      cardDiv.addEventListener("click", () => redirectToURLGarage());
 
       cardDiv.appendChild(logoImg);
       cardDiv.appendChild(businessName);
@@ -452,7 +452,7 @@ async function generateCards() {
   }
 }
 
-function redirectToURLVydic() {
+function redirectToURLGarage() {
   const redirectTo = "https://garage-nation.busyness.app/";
   console.log('redirection ', redirectTo);
   window.location.href = redirectTo;
